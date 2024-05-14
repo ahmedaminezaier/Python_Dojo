@@ -17,7 +17,7 @@ def number_of_books_on_hold():
     return 5
     return 10
 print(number_of_books_on_hold())
-#Output: 5
+#Output: 5/10
 
 #4
 def number_of_fingers():
