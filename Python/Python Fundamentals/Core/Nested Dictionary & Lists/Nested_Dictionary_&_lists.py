@@ -18,7 +18,7 @@ sports_directory = {
 }
 
 sports_directory['soccer'][0]="Andres"
-print(sports_directory)
+print(sports_directory['soccer'])
 
 z = [ {'x': 10, 'y': 20} ]
 
