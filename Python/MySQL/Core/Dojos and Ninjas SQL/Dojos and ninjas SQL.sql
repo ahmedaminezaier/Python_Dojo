@@ -6,6 +6,3 @@ INSERT INTO dojos_and_ninjas_schema.ninjas (first_name, last_name, age, dojo_id)
 INSERT INTO dojos_and_ninjas_schema.ninjas (first_name, last_name, age, dojo_id) VALUES ('Ninja 7', 'Surname', 27, 3), ('Ninja 8', 'Surname', 31, 3), ('Ninja 9', 'Surname', 24, 3);
 SELECT * FROM dojos_and_ninjas_schema.ninjas WHERE dojo_id = 1;SELECT * FROM dojos_and_ninjas_schema.ninjas WHERE dojo_id = (SELECT MAX(id) FROM dojos_and_ninjas_schema.dojos);
 SELECT dojos.* FROM dojos_and_ninjas_schema.dojos INNER JOIN dojos_and_ninjas_schema.ninjas ON dojos.id = ninjas.dojo_id ORDER BY ninjas.id DESC LIMIT 1;
-
-
-
